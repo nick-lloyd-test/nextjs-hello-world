@@ -9,7 +9,7 @@ export default function handler(_req, res) {
   // .then((data) => {
   //   return res.status(200).send(data)  
   // })
-  .error((err) => res.status(500).send('Nope ' + err))
+  .catch((err) => res.status(500).send('Nope ' + err))
 
   console.log('Fetched')
 
