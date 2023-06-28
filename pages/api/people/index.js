@@ -4,7 +4,7 @@ export default function handler(_req, res) {
 
   console.log('Trying here')
 
-  fetch('https://test-nodejs-qzou.onrender.com:10000/api')
+  fetch('https://test-nodejs-qzou.onrender.com:3001/api')
   .then((response) => res.status(200).send(response))
   // .then((data) => {
   //   return res.status(200).send(data)  
