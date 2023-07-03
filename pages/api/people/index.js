@@ -1,6 +1,6 @@
 import { NextApiResponse, NextApiRequest } from 'next'
 
-export default function handler(_req, res) {
+export default async function handler(_req, res) {
 
   console.log('Trying here')
 
