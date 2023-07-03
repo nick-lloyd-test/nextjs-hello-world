@@ -1,4 +1,5 @@
 import { NextApiResponse, NextApiRequest } from 'next'
+import { createClient } from "redis";
 
 export default async function handler(_req, res) {
 
